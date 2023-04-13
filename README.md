@@ -15,10 +15,10 @@ O projeto foi desenvolvido em reactJs, apenas o front, mostrando a aplicação d
 
 ### Minha experiência
 
-####Visão geral:
+Visão geral:
 Gostei muito de desenvolver esse projeto com uma nova tecnologia. Pude ver a diferença entre a criação de um site com React, a organização e a praticidade de reutilização de código (Através de componentes) é bastante prático.
 
-####Problemas:
+Problemas:
 Por ser meu primeiro contato, meu codigo com certeza está longo do ideal para quem programa "pensando em React".
 Ele ainda está incompleto, é ainda expositivo, falta algumas questões, como captura de dados para passar para o backend.
 Meu computador não aguenta essa nova tecnologia (não necessariamente sendo um problema do react).
