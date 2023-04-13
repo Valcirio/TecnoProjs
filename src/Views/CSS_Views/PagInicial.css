@@ -1,0 +1,44 @@
+/* Div que encapsula todos os componentes da página  */
+.PagInicial{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 134px;
+  }
+  
+  .PagInicial>img{
+    width: 120px;
+    height: 120px;
+  }
+  
+  .textoPrincipal{
+    width: 315px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .nomeInit{
+    background-color: #D4D4D4;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #444444
+  }
+  
+  .Buttons{
+    display: flex;
+    flex-flow: column wrap;
+    gap:12px;
+  }
+  
+  
+  .Buttons>img{
+    width: 250px;
+    height: 9px;
+  }

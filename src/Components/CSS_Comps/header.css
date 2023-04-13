@@ -1,0 +1,19 @@
+/* CSS da Logo e o perfil do usuario logado  */
+.Header{
+    margin-top: 32px;
+    width: 100vw;
+    height: 100px;
+}
+
+/* Engloba a img de ilustração do perfil e o Componente do perfil do usuario logado   */
+.navBox{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBox>li>img{
+    width: 64px;
+    height: 64px;
+}

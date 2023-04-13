@@ -1,0 +1,21 @@
+/* Div que encapsula todos os componentes da página  */
+.AddProj{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+/* Section que contem os inputs  */
+  .conteudoPrincipal{
+    display: flex;
+    width: 76%;
+    margin-bottom: 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }

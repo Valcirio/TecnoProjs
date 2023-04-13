@@ -1,0 +1,63 @@
+
+/* CSS do título do input e o input  */
+.caixaInputAdd{
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+/* Título do input  */
+.caixaInputAdd>span{
+    color: #d4d4d4;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Engloba a imagem e o input juntos em um fundo  */
+.InputAdd{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: center;
+    background-color: #1F2937;
+    border-radius: 5px;
+}
+
+/* Input do Título  */
+.InputAdd>input{
+    display: flex;
+    margin: 8px;
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4d4d4;
+}
+
+/* Input da descrição  */
+.InputAdd>textarea{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    border: 0 none;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d4d4d4;
+}
+
+/* CSS para tirar os efeitos do input ao selecionarmos nele para utiliza-lo */
+.InputAdd>input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.InputAdd>textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

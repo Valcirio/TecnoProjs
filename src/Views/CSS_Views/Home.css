@@ -1,0 +1,25 @@
+
+/* Div que encapsula todos os componentes da página  */
+.Home {
+  position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 64px;
+  }
+
+  /* CSS da div que engloba todos os componentes card  */
+  .containerCards{
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+  }

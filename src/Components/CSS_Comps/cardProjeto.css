@@ -1,0 +1,47 @@
+
+
+.CardProjeto{
+    width: 82%;
+    height: 100px;
+    padding: 8px;
+    background-color: #1F2937;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: self-start;
+}
+
+/* Título do projeto no card  */
+.CardProjeto>span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* Engloba a progressão do projeto, icone de edição  */
+.infoCard{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Barra de progressão do projeto   */
+.progressBar{
+    display: flex;
+    flex-direction: column;
+}
+
+.progressBar>span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.progressBar>input{
+    border: 0 none;
+    background: none;
+    color: aquamarine;
+}

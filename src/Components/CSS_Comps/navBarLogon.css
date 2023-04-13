@@ -1,0 +1,21 @@
+
+/* CSS do nav, que contem link das páginas de login e cadastro  */
+.navBar{
+    width: 100%;
+  }
+  
+  .navBar>ul{
+    display: flex;
+    flex-flow: row;
+    padding: 40px 24px 20px 24px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  
+  .linkNav{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+  }

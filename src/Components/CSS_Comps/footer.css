@@ -1,0 +1,25 @@
+/* Engloba os icones para navegação de página  */
+.Footer{
+    position: absolute;
+    width: 100vw;
+    height: 80px;
+    left: 0px;
+    bottom: 0px;
+    top: auto;
+    display: flex;
+    background-color: rgba(31, 31, 31, 0.6);
+}
+
+.Footer>ul{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lineBar{
+    height: 75%;
+    color: #D4D4D4;
+    opacity: 10%;
+}

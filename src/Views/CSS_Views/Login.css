@@ -1,0 +1,71 @@
+/* Div que encapsula todos os componentes da página  */
+.Login {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 64px;
+  }
+
+.textoPrincipalLogin{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.LogoLogin{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.LogoLogin>img{
+  height: 35px;
+  width: 35px;
+}
+
+.LogoLogin>p{
+  color: #FFFFFF;
+  font-weight:700;
+  font-size: 16px;
+}
+
+.textoPrincipalLogin>h1{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.textoPrincipalLogin>h2{
+  color:#d4d4d4;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.InputsLogin{
+  display: flex;
+  flex-flow: column;
+  width: 76%;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.InputsLogin>a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #d4d4d4;
+}
+
+.BotoesLogin{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 16px;
+}
